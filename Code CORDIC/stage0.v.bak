@@ -1,0 +1,5 @@
+//Stage 0 cua khoi cordic, i = 0
+module stage0(Xin,Yin,Zin,Xout,Yout,Zout);
+	input [15:0]Xin,Yin,Zin;
+	output [17:0]Xout,Yout,Zout;
+endmodule

@@ -1,0 +1,16 @@
+module stage1(Xin,Yin,Zin,theta,Xout,Yout,Zout);
+	input [17:0] Xin, Yin, Zin;		//Dau vao 1 khau
+	input [17:0] theta;
+	output [17:0] Xout, Yout, Zout;	//Dau ra 1 khau
+	wire [17:0] Xin_tmp, Yin_tmp; 	//tin hieu trung gian sau bo dich
+	wire [17:0] Xin_tmp_add, Yin_tmp_add,Zin_tmp_add;	//tin hieu trung gian cho dau vao bo cong
+	wire [17:0] theta0;
+	assign theta0 = {18{Zin[17]}} ^ theta;
+	rightshifter#(18,1) rsX0 ( Xin, Xin_tmp );
+	rightshifter#(18,1) rsY0 ( Yin, Yin_tmp );
+	assign Yin_tmp_add = Yin_tmp ^ {18{Zin[17]}};	//XOR cac bit Yin_tmp voi MSB cua Zin
+	assign Xin_tmp_add = Xin_tmp ^ {18{Zin[17]}};	//XOR cac bit Xin_tmp voi MSB cua Zin
+	add#(18) addX0 ( Xin, Yin_tmp_add, Zin[17], Xout /*cout*/);	
+	add#(18) addY0 ( Yin, Xin_tmp_add, Zin[17], Yout /*cout*/);
+	add#(18)	addZ0	( Zin, theta0, Zin[17], Zout /*cout*/);
+endmodule

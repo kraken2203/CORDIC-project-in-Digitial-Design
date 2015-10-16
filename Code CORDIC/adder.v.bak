@@ -1,0 +1,9 @@
+//Bo cong 2 so 16 bit
+module adder(a,b,cin,s,cout);
+	parameter n = 18;
+	input [n-1:0]a,b;
+	input cin;
+	output [n-1:0]s;
+	output cout;
+	assign {cout,s[n-1:0]} = a + b + cin;
+endmodule

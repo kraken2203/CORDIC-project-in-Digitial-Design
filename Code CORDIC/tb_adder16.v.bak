@@ -1,0 +1,23 @@
+module tb_adder16;
+	reg [15:0]a,b;
+	reg cin;
+	wire [15:0]s;
+	wire cout;
+	adder16 tb(.a(a),.b(b),.cin(cin),.s(s),.cout(cout));
+	wire [15:0]sum;
+	wire carry_out;
+	assign {carry_out, sum} = a + b + cin;
+	initial begin
+	a = 16'b0; b = 16'b0; cin = 0;
+	#10 a = 16'd20; b = 16'd15; cin = 0;
+	#10 a = 16'd10; b = 16'd15; cin = 1;
+	end
+	initial begin
+	$monitor("time = %d, a = %d, b = %d, cin = %d, sum = %d, cout = %d",$time, a, b, cin, s, cout);
+	end
+	always @()
+	begin
+		if((sum == s)&&(carry_out == cout) $display("PASS-----PASS-----PASS");
+		else $display("FAIL----FAIL----FAIL");
+	end
+endmodule

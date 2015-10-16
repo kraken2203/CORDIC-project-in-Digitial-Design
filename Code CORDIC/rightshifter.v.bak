@@ -1,0 +1,4 @@
+//Bo dich phai so bit tuy y
+module rightshifter(in,shf,out);
+
+endmodule

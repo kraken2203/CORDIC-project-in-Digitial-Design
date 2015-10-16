@@ -1,0 +1,55 @@
+module cordic(Xin,Yin,Zin,Xout,Yout,Zout);
+	input [15:0] Xin, Yin, Zin;		//Dau vao khoi cordic
+	output [17:0] Xout, Yout, Zout;
+	wire [17:0] Xin1, Yin1, Zin1;
+	wire [17:0] Xin2, Yin2, Zin2;
+	wire [17:0] Xin3, Yin3, Zin3;
+	wire [17:0] Xin4, Yin4, Zin4;
+	wire [17:0] Xin5, Yin5, Zin5;
+	wire [17:0] Xin6, Yin6, Zin6;
+	wire [17:0] Xin7, Yin7, Zin7;
+	wire [17:0] Xin8, Yin8, Zin8;
+	wire [17:0] Xin9, Yin9, Zin9;
+	wire [17:0] Xin10, Yin10, Zin10;
+	wire [17:0] Xin11, Yin11, Zin11;
+	wire [17:0] Xin12, Yin12, Zin12;
+	wire [17:0] Xin13, Yin13, Zin13;
+	wire [17:0] Xin14, Yin14, Zin14;
+	wire [17:0] Xin15, Yin15, Zin15;
+	//tao ra mang cac gia tri hang so cho goc theta
+	reg [17:0]theta_const[0:15];
+	assign theta_const[0]=18'b011001001000011111;
+	assign theta_const[1]=18'b001110110101100011;
+	assign theta_const[2]=18'b000111110101101101;
+	assign theta_const[3]=18'b000011111110101011;
+	assign theta_const[4]=18'b000001111111110101;
+	assign theta_const[5]=18'b000000111111111110;
+	assign theta_const[6]=18'b000000011111111111;
+	assign theta_const[7]=18'b000000001111111111;
+	assign theta_const[8]=18'b000000000111111111;
+	assign theta_const[9]=18'b000000000011111111;
+	assign theta_const[10]=18'b000000000001111111;
+	assign theta_const[11]=18'b000000000000111111;
+	assign theta_const[12]=18'b000000000000011111;
+	assign theta_const[13]=18'b000000000000001111;
+	assign theta_const[14]=18'b000000000000000111;
+	assign theta_const[15]=18'b000000000000000011;
+	
+	stage0 cordic0(.Xin(Xin),.Yin(Yin),.Zin(Zin),.theta(theta_const[0]),.Xout(Xin1),.Yout(Yin1),.Zout(Zin1));
+	stage1 cordic1(.Xin(Xin1),.Yin(Yin1),.Zin(Zin1),.theta(theta_const[1]),.Xout(Xin2),.Yout(Yin2),.Zout(Zin2));
+	stage1 cordic2(.Xin(Xin2),.Yin(Yin2),.Zin(Zin2),.theta(theta_const[2]),.Xout(Xin3),.Yout(Yin3),.Zout(Zin3));
+	stage1 cordic3(.Xin(Xin3),.Yin(Yin3),.Zin(Zin3),.theta(theta_const[3]),.Xout(Xin4),.Yout(Yin4),.Zout(Zin4));
+	stage1 cordic4(.Xin(Xin4),.Yin(Yin4),.Zin(Zin4),.theta(theta_const[4]),.Xout(Xin5),.Yout(Yin5),.Zout(Zin5));
+	stage1 cordic5(.Xin(Xin5),.Yin(Yin5),.Zin(Zin5),.theta(theta_const[5]),.Xout(Xin6),.Yout(Yin6),.Zout(Zin6));
+	stage1 cordic6(.Xin(Xin6),.Yin(Yin6),.Zin(Zin6),.theta(theta_const[6]),.Xout(Xin7),.Yout(Yin7),.Zout(Zin7));
+	stage1 cordic7(.Xin(Xin7),.Yin(Yin7),.Zin(Zin7),.theta(theta_const[7]),.Xout(Xin8),.Yout(Yin8),.Zout(Zin8));
+	stage1 cordic8(.Xin(Xin8),.Yin(Yin8),.Zin(Zin8),.theta(theta_const[8]),.Xout(Xin9),.Yout(Yin9),.Zout(Zin9));
+	stage1 cordic9(.Xin(Xin9),.Yin(Yin9),.Zin(Zin9),.theta(theta_const[9]),.Xout(Xin10),.Yout(Yin10),.Zout(Zin10));
+	stage1 cordic10(.Xin(Xin10),.Yin(Yin10),.Zin(Zin10),.theta(theta_const[10]),.Xout(Xin11),.Yout(Yin11),.Zout(Zin11));
+	stage1 cordic11(.Xin(Xin11),.Yin(Yin11),.Zin(Zin11),.theta(theta_const[11]),.Xout(Xin12),.Yout(Yin12),.Zout(Zin12));
+	stage1 cordic12(.Xin(Xin12),.Yin(Yin12),.Zin(Zin12),.theta(theta_const[12]),.Xout(Xin13),.Yout(Yin13),.Zout(Zin13));
+	stage1 cordic13(.Xin(Xin13),.Yin(Yin13),.Zin(Zin13),.theta(theta_const[13]),.Xout(Xin14),.Yout(Yin14),.Zout(Zin14));
+	stage1 cordic14(.Xin(Xin14),.Yin(Yin14),.Zin(Zin14),.theta(theta_const[14]),.Xout(Xin15),.Yout(Yin15),.Zout(Zin15));
+	stage1 cordic15(.Xin(Xin15),.Yin(Yin15),.Zin(Zin15),.theta(theta_const[15]),.Xout(Xout),.Yout(Yout),.Zout(Zout));
+endmodule
+	

@@ -1,0 +1,43 @@
+{F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rightshifter
+
+Top level modules:
+	rightshifter
+
+} {} {}} {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module stage0
+
+Top level modules:
+	stage0
+
+} {} {}} {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_rightshifter
+
+Top level modules:
+	tb_rightshifter
+
+} {} {}} {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module adder1bit
+
+Top level modules:
+	adder1bit
+
+} {} {}} {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v} {1 {vlog -work work {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_stage0
+
+Top level modules:
+	tb_stage0
+
+} {} {}}

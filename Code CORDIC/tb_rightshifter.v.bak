@@ -1,0 +1,9 @@
+module tb_rightshifter;
+	reg [n-1:0]in;
+	reg [n-1:0]i;
+	wire [n-1:0]out;
+	rightshifter tb(.in(in),.i(i),.out(out));
+		tb.n = 4;
+	initial begin
+	in = 4'b0000; i = 0;
+	#10 in = 4'b1011; i = 2

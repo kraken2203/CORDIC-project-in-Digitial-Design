@@ -1,0 +1,214 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\LAB BKIC\Lab Exercise\Lab6
+vadder
+!i10b 1
+!s100 9M4Sa<13bg>7AIADFmUB[3
+I1]j?;7gZ`Kil[8d44e>mV2
+V>A>AY4>VoEoDRg60^_<Vj0
+Z1 dF:\LAB BKIC\Lab Exercise\CORDIC\Code CORDIC
+w1444726554
+8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v
+FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1444879557.026000
+!s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v|
+!s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder.v|
+!s101 -O0
+Z3 o-work work -O0
+vadder16
+Z4 !s100 453h9]a]5d:_2z0n:Ee9k0
+Z5 IcI5BfV1U:JgZoSg^EWKTN3
+Z6 VB06n5Dk@3OJ:MQZXjMG;63
+R1
+Z7 w1443579744
+Z8 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder16.v
+Z9 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder16.v
+L0 2
+R2
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder16.v|
+R3
+Z11 !s108 1444710191.157000
+Z12 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder16.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vadder1bit
+Z13 !s100 2mNW1X0zzflHLWoV?CQ2W2
+Z14 IiVTjgLK;7kAD^[;]HVoFj2
+Z15 VbWbi?:AaH?>KHLBk=KATJ3
+R1
+Z16 w1443544479
+Z17 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v
+Z18 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v
+L0 2
+R2
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v|
+R3
+Z20 !s108 1444879556.025000
+Z21 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/adder1bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vand8_1
+Z22 I`XR7n>02LC19<NDRBSmZ>0
+Z23 V:UE<8:Ck2OBbFgPkEKzZ20
+R1
+Z24 w1443544421
+Z25 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/multiplier16.v
+Z26 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/multiplier16.v
+L0 73
+R2
+r1
+31
+Z27 !s108 1443582036.453000
+Z28 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/multiplier16.v|
+Z29 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/multiplier16.v|
+R3
+Z30 !s100 A4kcc6F;<gGNgAGe9Zeic2
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplier8bit
+Z31 IE^9EO47ioW^@[M@ffgBG60
+Z32 VMz9EifSZX^TY`8=_X[IQT2
+R1
+R24
+R25
+R26
+L0 19
+R2
+r1
+31
+R27
+R28
+R29
+R3
+Z33 !s100 a<fKWeY:2RoP8a;f7K^;b2
+!i10b 1
+!s85 0
+!s101 -O0
+vrightshifter
+Z34 !s100 Il<mQUmZXnBFPTdRo8bhU2
+Z35 I:W99IZ2:AXnh<I3eIHE2Q1
+Z36 Vf@W=E;_bPD;S@ozCKCThi2
+R1
+Z37 w1444726357
+Z38 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v
+Z39 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v
+L0 2
+R2
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v|
+R3
+Z41 !s108 1444879556.240000
+Z42 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstage0
+Z43 !s100 RjecZRWR;e[Ak5P8SiQPc2
+Z44 IFc]CJMHZMJAG_1D?^`Pz02
+Z45 V1EAizVaD0;c6N?NW>JA9g2
+R1
+Z46 w1444836022
+Z47 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v
+Z48 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v
+L0 2
+R2
+r1
+31
+Z49 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v|
+R3
+Z50 !s108 1444879556.571000
+Z51 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstage1
+Z52 !s100 :<ZCXmeVdiCfXXbIm;<]21
+Z53 IYH=@OJbF`amk=cEC;T1`Y3
+Z54 VAGl:C6IPM^]4VmCJOD]In2
+R1
+Z55 w1444836034
+Z56 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage1.v
+Z57 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage1.v
+L0 2
+R2
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage1.v|
+R3
+Z59 !s108 1444879556.714000
+Z60 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_adder16
+Z61 IH7RnFD[DolRUDollom^NE3
+Z62 VTmNPdG<LP:m3Y=AaP7nIN1
+R1
+Z63 w1444721517
+Z64 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_adder16.v
+Z65 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_adder16.v
+L0 1
+R2
+r1
+31
+Z66 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_adder16.v|
+R3
+Z67 !s100 E<D86g2JOzJ1>5i8@BkBV2
+Z68 !s108 1444879525.453000
+Z69 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_adder16.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_rightshifter
+Z70 !s100 o1Tijl2V=4]n=]P=[TPKn0
+Z71 I9]AC8bN<aFUDcA>3Cl1]60
+Z72 VA=ZbchCf`Qn4zUFc8<W@G2
+R1
+Z73 w1444710285
+Z74 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v
+Z75 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v
+L0 2
+R2
+r1
+31
+Z76 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v|
+R3
+Z77 !s108 1444879556.407000
+Z78 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_rightshifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_stage0
+Z79 !s100 `;ohQHSY3gd_A=7oNhJLf1
+Z80 IK`0PBQjKb6T20_N7TV7@W2
+Z81 VYNC7SM^Hz143mRXS_jL270
+R1
+Z82 w1444879043
+Z83 8F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v
+Z84 FF:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v
+L0 1
+R2
+r1
+31
+Z85 !s90 -reportprogress|300|-work|work|F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v|
+R3
+!i10b 1
+!s85 0
+Z86 !s108 1444879556.867000
+Z87 !s107 F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/tb_stage0.v|
+!s101 -O0

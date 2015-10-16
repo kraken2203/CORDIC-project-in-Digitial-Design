@@ -1,0 +1,46 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/testbench_CORDIC.mpf} 
+# Loading project testbench_CORDIC
+# Compile of adder1bit.v was successful.
+# Compile of tb_adder16.v was successful.
+# Compile of rightshifter.v was successful.
+# Compile of tb_rightshifter.v was successful.
+# Compile of stage0.v was successful.
+# Compile of stage1.v was successful.
+# Compile of tb_stage0.v was successful.
+# 7 compiles, 1 failed with no errors. 
+# Compile of adder1bit.v was successful.
+# Compile of rightshifter.v was successful.
+# Compile of tb_rightshifter.v was successful.
+# Compile of stage0.v was successful.
+# Compile of stage1.v was successful.
+# Compile of tb_stage0.v was successful.
+# Compile of adder.v was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.tb_stage0
+# vsim -voptargs=+acc work.tb_stage0 
+# Loading work.tb_stage0
+# Loading work.stage0
+# Loading work.rightshifter
+# Loading work.adder
+# ** Warning: (vsim-8607) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v(8): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/rightshifter.v(8): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /tb_stage0/logic0/addX0
+# ** Warning: (vsim-3722) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(14): [TFMPC] - Missing connection for port 'cout'.
+# 
+# ** Warning: (vsim-3017) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(15): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /tb_stage0/logic0/addY0
+# ** Warning: (vsim-3722) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(15): [TFMPC] - Missing connection for port 'cout'.
+# 
+# ** Warning: (vsim-3017) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(16): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /tb_stage0/logic0/addZ0
+# ** Warning: (vsim-3722) F:/LAB BKIC/Lab Exercise/CORDIC/Code CORDIC/stage0.v(16): [TFMPC] - Missing connection for port 'cout'.
+# 
+add wave -position insertpoint sim:/tb_stage0/*
+run
