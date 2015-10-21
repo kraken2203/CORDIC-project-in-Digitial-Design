@@ -37,6 +37,7 @@ module cordic(clk,rst_n,Xin,Yin,Zin,Xout,Yout,Zout);
 	//tao ra mang cac gia tri hang so cho goc theta
 	wire [17:0]theta_const[0:15];
 	//Gan gia tri cho cac hang so theta
+	/*
 	assign  theta_const[0]=18'b001100100100001111;
 	assign  theta_const[1]=18'b000111011010110001;
 	assign  theta_const[2]=18'b000011111010110110;
@@ -53,7 +54,24 @@ module cordic(clk,rst_n,Xin,Yin,Zin,Xout,Yout,Zout);
 	assign theta_const[13]=18'b000000000000000111;
 	assign theta_const[14]=18'b000000000000000011;
 	assign theta_const[15]=18'b000000000000000001;
-	
+	*/
+	assign  theta_const[0]=18'b001100100100010000;		
+	assign  theta_const[1]=18'b000111011010110010;		
+	assign  theta_const[2]=18'b000011111010110111;		
+	assign  theta_const[3]=18'b000001111111010110;		
+	assign  theta_const[4]=18'b000000111111111011;		
+	assign  theta_const[5]=18'b000000011111111111;		
+	assign  theta_const[6]=18'b000000010000000000;		
+	assign  theta_const[7]=18'b000000001000000000;		
+	assign  theta_const[8]=18'b000000000100000000;		
+	assign  theta_const[9]=18'b000000000010000000;		
+	assign theta_const[10]=18'b000000000001000000;		
+	assign theta_const[11]=18'b000000000000100000;		
+	assign theta_const[12]=18'b000000000000010000;		
+	assign theta_const[13]=18'b000000000000001000;		
+	assign theta_const[14]=18'b000000000000000100;		
+	assign theta_const[15]=18'b000000000000000010;	
+
 	always @(posedge clk or negedge rst_n)
 	begin
 		if (!rst_n) 
